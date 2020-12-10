@@ -1,0 +1,275 @@
+body { 
+  background: rgb(219, 219, 219); 
+  color:black;
+  background-color:white;
+  background-image:url(#);
+  font-family: lato;
+}
+
+h1{
+  color: rgb(50, 50, 50);
+  font-family: lato;
+}
+
+h2{
+  color: rgb(80, 80, 80);
+  font-family: lato; 
+}
+
+a{
+  font-family: lato;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px
+}
+
+a: hover {
+  color: white;
+}
+
+.btn-blue{
+  background-color: blue;
+  padding: 10px;
+  border-radius: 4px;
+  text-align :center;
+  border: 1px solid #000000;
+  color: #FFF;
+}
+
+.btn-blue: hover{
+  background-color: grey;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+------container------
+body{
+  background-image: url("images/trad.jpg");
+  font-family: lato;
+}
+
+#banner{
+  background-image: url("images/trad.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 300px
+  border: 1.5px solid rgb(219, 219, 219);
+     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+     border-radius: 4px;
+     margin: 10px 0px;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 5%;
+  border: 1px solid rgb(219, 219, 219);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.circle{
+  border-radius: 30%;
+}
+
+
+
+
+.container{
+    width: 1000px;
+    margin: 40px auto;
+}
+
+.box-grey{
+  background-color: rgb(219, 219, 219);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  margin: 10px 0px;
+  text-align: center;
+}
+  
+---------------------------------------------------
+  .ligne{
+    width: 90%;
+  }
+  
+  .comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+  }
+  
+  .comp p{
+    flex: 0 0 40%;
+  }
+  
+  .conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: grey;
+    border-bottom: 1px ridge grey;
+  }
+  
+ .barre{
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+ 
+ .c85{
+    width: 85%;
+    background-color: #8B8;
+  }
+
+ .c90{
+    width: 90%;
+    background-color: #4B8;
+  }
+ 
+ .c95{
+    width: 95%;
+    background-color: #4B8;
+  }
+
+ .c100{
+    width: 100%;
+    background-color: #4B8;
+    border-radius: 5px;
+  }
+}
+
+
+.btn-blue{
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+
+}
+
+.btn-blue: hover{
+  background-color: rgb(219, 219, 219);
+  color: rgb(219, 219, 219);
+}
+
+#introduction p{
+  margin-bottom: 40px;
+}
+
+
+
+
+---about-----
+#about {
+   background: rgb(219, 219, 219);
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+   }
+
+
+
+----formation---
+
+
+
+
+#resume {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+
+
+
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 960px){
+  .container{
+    width: 100%;
+  }
+  .cards{
+    width: 650px;
+  }
+}
+@media (max-width: 720px){
+  .container{
+    width: 100%;
+  }
+  .cards{
+    width: 400px;
+  }
+}
+@media (max-width: 540px){
+  .container{
+    width: 100%;
+  }
+  .cards{
+    width: 250px;
+  }
+}
+
+
+blockquote {
+  min-height: 5em;
+  padding   : 1em 4em;
+  font      : 1em/150% sans-serif;
+  position  : relative;
+  background-color: lightgoldenrodyellow;
+}
+
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  height  : 3rem;
+  font    : 6rem/100% Georgia, "Times New Roman", Times, serif;
+}
+
+blockquote::before {
+  content: '“';
+  top    : 0.3rem;
+  left   : 0.9rem;
+}
+
+blockquote::after {
+  content: '”';
+  bottom : 0.3rem;
+  right  : 0.8rem;
+}
+
+blockquote:lang(fr)::before {
+  content: '«';
+  top    : -1.5rem;
+  left   : 0.5rem;
+}
+
+blockquote:lang(fr)::after {
+  content: '»';
+  bottom : 2.6rem;
+  right  : 0.5rem
+}
+
+blockquote i {
+  display   : block;
+  font-size : 0.8em;
+  margin-top: 1rem;
+  text-style: italic;
+  text-align: right;
+}
+
+
+
+/*SECTION COMPETENCES*/
+
+
